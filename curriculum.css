@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #555;
+}
+
+.personal-info p {
+    margin: 5px 0;
+}
+
+.education ul, .habilidades ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education li, .habilidades li {
+    margin-bottom: 10px;
+}
+
+.education li strong, .experience li strong {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+.profile-picture {
+    width: 150px; /* Tamaño de la foto */
+    border-radius: 50%; /* Para hacer la foto redonda */
+    display: block;
+    margin: 0 auto 20px; /* Para centrar la foto */
+}
+
